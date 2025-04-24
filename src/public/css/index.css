@@ -1,0 +1,115 @@
+
+/* 成功の場合 */
+.todo-form__notice--success {
+    color: #0f5132;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    padding: 10px 20px;
+}
+
+/* 失敗の場合 */
+.todo-form__notice--error {
+    color: #842029;
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    margin: 0;
+    padding: 10px 40px;
+
+}
+
+.todo-form__content {
+    margin: 50px 60px;
+}
+
+.form1__input {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+}
+
+.form1__input--text {
+    width: 70%;
+}
+
+.form1__input--button {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.form1__input--text-input {
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 1px rgb(200, 200, 200);
+}
+
+.form1__input--button-submit {
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.todo__title {
+    width: 80vw;
+    margin-top: 60px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid 1px rgb(200, 200, 200);
+}
+
+.form2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 10px 0;
+    border-bottom: solid 1px rgb(200, 200, 200);
+}
+
+.update-form {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.delete-form {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.update-form__input-text {
+    border: none;
+    box-sizing: border-box;
+    width: calc((7 / 9) * 100%);
+}
+
+.update-form--button-submit {
+    width: calc((0.9 / 9) * 100%);
+    margin-left: calc((1 / 9) * 100%);
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-form__button-submit {
+    width: 90%;
+    margin-left: auto;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form1__input--text-input,
+.form1__input--button-submit,
+.update-form__input-text,
+.update-form--button-submit,
+.delete-form__button-submit {
+    height: 30px;
+    font-size: 12px;
+    border-radius: 3px;
+}
