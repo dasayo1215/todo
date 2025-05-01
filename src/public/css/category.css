@@ -33,15 +33,11 @@
     display: flex;
     align-items: center;
     width: 80vw;
+    margin-top: 50px;
 }
 
 .form1__input--text {
-    width: 34%;
-}
-
-.form1__input--category {
-    width: 34%;
-    margin-left: 2%;
+    width: 70%;
 }
 
 .form1__input--button {
@@ -108,7 +104,7 @@
 .update-form__input-text {
     border: none;
     box-sizing: border-box;
-    width: calc((7 / 9 / 2) * 100%);
+    width: calc((7 / 9) * 100%);
 }
 
 .update-form--button-submit {
